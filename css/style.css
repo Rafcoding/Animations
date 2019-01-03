@@ -13,6 +13,10 @@ Dark green: #28b485
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -65,9 +69,10 @@ body {
 
 .heading-primary--main {
   display: block;
-  font-size: 60px;
+  font-size: 2.6rem;
   font-weight: 900;
   letter-spacing: 5px;
+  margin-bottom: 1rem;
 
   animation-name: moveInLeft;
   animation-duration: 1s;
@@ -82,10 +87,9 @@ body {
 
 .heading-primary--sub {
   display: block;
-  font-size: 20px;
+  font-size: 1.6rem;
   font-weight: 700;
   letter-spacing: 10px;
-
   animation: moveInRight 1s ease-out;
 
 }
@@ -184,10 +188,10 @@ body {
 }
 
 .section-about {
-    background-color: grey;
+    background-color: lightgrey;
     padding: 25rem 0;
-    margin-top: -40vh;
-    color: white;
+    margin-top: -20vh;
+
 
 }
 
@@ -195,6 +199,91 @@ body {
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-image: linear-gradient(to right, rgba(38, 44, 38, 0.8),
+  display: inline-block;
+  background-image: linear-gradient(to left, rgba(38, 120, 38, 0.8),
     rgba(40, 180, 133, 0.8));
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: .2rem;
+  transition: all .2s;
+
+
+
+}
+
+.heading-secondary:hover {
+transform: skewY(2deg) skewX(15deg) scale(1.1);
+text-shadow: .5rem 1rem 2rem rgba(0, 0, 0, 0.5);
+}
+
+.u-center-text {
+  text-align: center;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem;
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem;
+}
+
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.row {
+    max-width: 114rem;
+    margin: 0 auto;
+    margin-left: 6rem;
+
+}
+
+.row .col-1-of-2 {
+    width: calc((100% - 6rem) / 2);
+    float: left;
+}
+
+.composition {
+    position: relative;
+}
+
+.paragraph {
+  font-size: 1.6rem;
+}
+
+.paragraph:not(:last-child) {
+  margin-bottom: 3rem;
+}
+
+.btn-text {
+
+}
+
+.btn-text:link,
+.btn-text:visited {
+  font-size: 1.6rem;
+  color:  #55c57a;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px solid #55c57a;
+  padding: 3px;
+}
+
+.btn-text:hover {
+background-color: #55c57a;
+color: #fff;
+box-shadow: 0 1rem 2rem rgba(0, 0, 0, .15);
+transform: translateY(-2px);
+}
+
+.btn-text:active {
+  box-shadow: 0 .5rem 2rem rgba(0, 0, 0, .15);
+  transform: translateY(0);
 }
