@@ -41,6 +41,18 @@ body {
 
   }
 
+/* Green colors */
+
+/* linear-gradient(
+  to right bottom,
+  rgba(38, 44, 38, 0.8),
+  rgba(40, 180, 133, 0.8)) */
+
+/* Orange colors */
+  /* linear-gradient(to right bottom, rgba(255, 185, 0, .85),
+  rgba(255, 119, 48, .85)) */
+
+
   .header__logo-box {
     position: absolute;
     top: 40px;
@@ -192,7 +204,7 @@ body {
     background-color: #333;
     padding: 50rem 0;
     margin-top: -50vh;
-        height: 155vh;
+    height: 155vh;
 
 
   }
@@ -338,6 +350,7 @@ body {
     background-color: white;
     padding: 25rem 0 50rem 0;
     margin-top: -10rem;
+    height: 120vh;
   }
 
 
@@ -392,29 +405,29 @@ body {
 
   }
 
-/*Styling*/
+  /*Styling*/
 
-.card__picture {
-  background-size: cover;
-  height: 16rem;
-  background-blend-mode: saturation;
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-}
+  .card__picture {
+    background-size: cover;
+    height: 16rem;
+    background-blend-mode: saturation;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  }
 
-.card__picture--1 {
-  background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 1),
-  rgba(255, 119, 48, 1)), url(../img/SneakerFreaker.png);
-}
-/*
-.card__picture--2 {
+  .card__picture--1 {
+    background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 1),
+    rgba(255, 119, 48, 1)), url(../img/SneakerFreaker.png);
+  }
+  /*
+  .card__picture--2 {
   background-image: url(../img/SneakerFreaker.png);
 }
 .card__picture--3 {
-  background-image: url(../img/SneakerFreaker.png);
+background-image: url(../img/SneakerFreaker.png);
 }
 .card__picture--4 {
-  background-image: url(../img/SneakerFreaker.png);
+background-image: url(../img/SneakerFreaker.png);
 } */
 
 .card__heading {
@@ -424,7 +437,7 @@ body {
   color: white;
   position: absolute;
   top: 12rem;
-  right: 0rem;
+  right: 1rem;
   text-align: right;
 }
 
@@ -464,4 +477,75 @@ li:not(:last-child) {
 p {
   text-align: center;
   font-weight: 800;
+}
+
+.card__cta {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  text-align: center;
+}
+
+.card__price-box {
+  text-align: center;
+  color: white;
+  margin-bottom: 8rem;
+}
+
+.card__price-only {
+  font-size: 1.4rem;
+  text-transform: uppercase;;
+}
+
+.card__price-value {
+  font-size: 6rem;
+  font-weight: 100;
+}
+
+/* footer */
+
+.footer {
+  background-color: #333;
+  padding: 10rem 0;
+  font-size: 1.4rem;
+}
+
+.footer__navigation {
+
+}
+
+.footer__list {
+list-style: none;
+text-align: center;
+}
+
+.footer__item {
+display: inline-block;
+}
+
+.footer__item:not(:last-child) {
+  margin-right: 1.5rem;
+}
+
+.footer__link {
+
+}
+
+Esta parte no funciona
+
+.footer__link:link,
+.footer__link:visited {
+  color: #f7f7f7;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.footer__link:hover,
+.footer__link:active {
+  color: #55c57a;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .4);
+transform: rotate(5deg) scale(1.3);
 }
