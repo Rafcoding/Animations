@@ -37,6 +37,7 @@ body {
     background-position: top;
     position: relative;
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
   }
 
@@ -333,7 +334,7 @@ body {
   }
 
   .section-tours {
-    background-color: grey;
+    background-color: white;
     padding: 25rem 0 50rem 0;
     margin-top: -10rem;
   }
@@ -349,14 +350,12 @@ body {
     perspective: 150rem;
     -moz-perspective: 150rem;
     position: relative;
-    height: 50rem;
+    height: 45rem;
 
   }
 
   .card__side {
-    color: #fff;
-    font-size: 2rem;
-    height: 50rem;
+    height: 45rem;
     transition: all .8s ease;
     position: absolute;
     top: 0;
@@ -364,6 +363,7 @@ body {
     width: 100%;
     backface-visibility: hidden;
     border-radius: 3px;
+    overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .15);
   }
 
@@ -376,7 +376,7 @@ body {
   }
 
   .card__side--front {
-    background-color: green;
+    background-color: white;
   }
 
   .card__side--back {
@@ -388,3 +388,77 @@ body {
     rgba(255, 119, 48, 1));
 
   }
+
+/*Styling*/
+
+.card__picture {
+  background-size: cover;
+  height: 21rem;
+  background-blend-mode: saturation;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.card__picture--1 {
+  background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 1),
+  rgba(255, 119, 48, 1)), url(../img/SneakerFreaker.png);
+}
+/*
+.card__picture--2 {
+  background-image: url(../img/SneakerFreaker.png);
+}
+.card__picture--3 {
+  background-image: url(../img/SneakerFreaker.png);
+}
+.card__picture--4 {
+  background-image: url(../img/SneakerFreaker.png);
+} */
+
+.card__heading {
+  font-size: 2.8rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: white;
+  position: absolute;
+  top: 16rem;
+  right: 1rem;
+  text-align: right;
+}
+
+.card__heading-span {
+  padding: 1rem 1.5rem;
+  -webkit-box-decoration-break: clone;
+}
+
+.card__heading-span--1 {
+  background-image: linear-gradient(to right bottom, rgba(255, 185, 0, .85),
+  rgba(255, 119, 48, .85));
+
+}
+
+.card__details {
+  color: grey;
+  padding: 3rem;
+}
+
+ul {
+  list-style: none;
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+li {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+li:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+
+p {
+  text-align: center;
+  font-weight: 800;
+}
