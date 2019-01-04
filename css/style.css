@@ -192,6 +192,7 @@ body {
     background-color: #333;
     padding: 50rem 0;
     margin-top: -50vh;
+        height: 155vh;
 
 
   }
@@ -339,8 +340,9 @@ body {
     margin-top: -10rem;
   }
 
+
   .row .col-1-of-3 {
-    width: calc((100% - 3rem) / 3);
+    width: calc((100% - 30rem) / 3);
     float: left;
   }
 
@@ -351,6 +353,7 @@ body {
     -moz-perspective: 150rem;
     position: relative;
     height: 45rem;
+    margin-right: 2rem;
 
   }
 
@@ -393,7 +396,7 @@ body {
 
 .card__picture {
   background-size: cover;
-  height: 21rem;
+  height: 16rem;
   background-blend-mode: saturation;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
@@ -415,13 +418,13 @@ body {
 } */
 
 .card__heading {
-  font-size: 2.8rem;
+  font-size: 1.8rem;
   font-weight: 300;
   text-transform: uppercase;
   color: white;
   position: absolute;
-  top: 16rem;
-  right: 1rem;
+  top: 12rem;
+  right: 0rem;
   text-align: right;
 }
 
