@@ -400,6 +400,12 @@ body {
   }
 
   .card__side--back-1 {
+    background-image: linear-gradient(to right bottom, rgba(40,170,255,1),
+    rgba(242, 22, 22, 1));
+
+  }
+
+  .card__side--back-2 {
     background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 1),
     rgba(255, 119, 48, 1));
 
@@ -417,8 +423,14 @@ body {
 
   .card__picture--1 {
     background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 1),
+    rgba(255, 119, 48, 1)), url(../img/horrormazegame.png);
+  }
+
+  .card__picture--2 {
+    background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 1),
     rgba(255, 119, 48, 1)), url(../img/SneakerFreaker.png);
   }
+
   /*
   .card__picture--2 {
   background-image: url(../img/SneakerFreaker.png);
@@ -436,8 +448,8 @@ background-image: url(../img/SneakerFreaker.png);
   text-transform: uppercase;
   color: white;
   position: absolute;
-  top: 12rem;
-  right: 1rem;
+  top: 14rem;
+  right: 0rem;
   text-align: right;
 }
 
