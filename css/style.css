@@ -346,11 +346,11 @@ body {
     top: 10rem;
   }
 
-  .section-tours {
+  .section-projects {
     background-image: linear-gradient(
         to right bottom,
-        rgba(38, 44, 38, 0.8),
-        rgba(40, 180, 133, 0.8));
+        rgba(38, 44, 38, 1),
+        rgba(40, 180, 133, 1));
     padding: 25rem 0 50rem 0;
     /* margin-top: -10rem; */
     height: 125vh;
@@ -419,15 +419,23 @@ body {
 
   }
 
+  .card__side--back-3 {
+    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.1),
+    rgba(40,170,255,1));
+
+  }
+
   /*Styling*/
 
   .card__picture {
     background-size: cover;
-    height: 16rem;
+    height: 14rem;
     background-blend-mode: saturation;
-    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); */
   }
+
+
 
   .card__picture--1 {
     background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 1),
@@ -439,6 +447,16 @@ body {
     rgba(255, 119, 48, 1)), url(../img/SneakerFreaker.png);
   }
 
+  .card__picture--3 {
+    background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 1),
+    rgba(255, 119, 48, 1)), url(../img/orca.png);
+  }
+
+  .card__picture--4 {
+    background-image: url(../img/playandwatch.png);
+  }
+
+
   /*
   .card__picture--2 {
   background-image: url(../img/SneakerFreaker.png);
@@ -446,13 +464,13 @@ body {
 .card__picture--3 {
 background-image: url(../img/SneakerFreaker.png);
 }
-.card__picture--4 {
+/* .card__picture--4 {
 background-image: url(../img/SneakerFreaker.png);
 } */
 
 .card__heading {
   font-size: 1.8rem;
-  font-weight: 300;
+  font-weight: 600;
   text-transform: uppercase;
   color: white;
   position: absolute;
@@ -467,6 +485,21 @@ background-image: url(../img/SneakerFreaker.png);
 }
 
 .card__heading-span--1 {
+  background-image: linear-gradient(to right bottom, rgba(40,170,255,1),
+  rgba(242, 22, 22, 1));
+
+}
+.card__heading-span--2 {
+  background-image: linear-gradient(to right bottom, rgba(255, 185, 0, .85),
+  rgba(255, 119, 48, .85));
+
+}
+.card__heading-span--3 {
+  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.1),
+  rgba(40,170,255,1));
+
+}
+.card__heading-span--4 {
   background-image: linear-gradient(to right bottom, rgba(255, 185, 0, .85),
   rgba(255, 119, 48, .85));
 
@@ -474,7 +507,7 @@ background-image: url(../img/SneakerFreaker.png);
 
 .card__details {
   color: grey;
-  padding: 3rem;
+  padding: 5rem;
 }
 
 ul {
@@ -514,12 +547,12 @@ p {
   margin-bottom: 8rem;
 }
 
-.card__price-only {
+.card__project {
   font-size: 1.4rem;
   text-transform: uppercase;;
 }
 
-.card__price-value {
+.card__date {
   font-size: 6rem;
   font-weight: 100;
 }
