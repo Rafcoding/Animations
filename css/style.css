@@ -432,6 +432,11 @@ body {
 
   }
 
+  .card__side--back-4 {
+    background-image: linear-gradient(to right bottom, rgba(38, 44, 38, 1),
+      rgba(40, 180, 133, 1));
+    }
+
   /*Styling*/
 
   .card__picture {
@@ -455,7 +460,7 @@ body {
 
   .card__picture--3 {
     background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 1),
-    rgba(255, 119, 48, 1)), url(../img/orca.png);
+    rgba(255, 119, 48, 1)), url(../img/orca1.png);
   }
 
   .card__picture--4 {
@@ -506,8 +511,10 @@ background-image: url(../img/SneakerFreaker.png);
 
 }
 .card__heading-span--4 {
-  background-image: linear-gradient(to right bottom, rgba(255, 185, 0, .85),
-  rgba(255, 119, 48, .85));
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(38, 44, 38, 1),
+      rgba(40, 180, 133, 1));
 
 }
 
