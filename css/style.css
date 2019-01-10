@@ -369,7 +369,14 @@ body {
 
 }
 
-  .row .col-1-of-3 {
+.row-projects {
+  max-width: 114rem;
+  margin: 0 auto;
+  margin-left: 17rem;
+
+}
+
+  .row-projects .col-1-of-3 {
     width: calc((100% - 30rem) / 3);
     float: left;
   }
