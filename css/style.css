@@ -173,7 +173,7 @@ body {
     color: #777;
   }
 
-  .btn::after {
+  /* .btn::after {
     content: "";
     display: inline-block;
     height: 100%;
@@ -184,19 +184,19 @@ body {
     left: 0;
     z-index: -1;
     transition: all .4s;
-  }
+  } */
 
-  .btn--white::after {
+  /* .btn--white::after {
     background-color: #fff;
-  }
+  } */
 
-  .btn:hover::after {
+  /* .btn:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
-  }
+  } */
 
   .btn--animated {
-    animation: moveInBottom .5s ease-out .75s;
+    animation: moveInBottom .8s ease-out .75s;
     animation-fill-mode: backwards;
   }
 
