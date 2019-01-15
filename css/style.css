@@ -613,7 +613,7 @@ margin: 0 1rem;
   .footer__link:active {
     color: #08fdd8;
     /* box-shadow: 0 1rem 2rem rgba(0, 0, 0, .4); */
-    transform: rotate(5deg) scale(1.3);
+    transform: rotate(5deg) scale(1.4);
   }
 
 
@@ -743,15 +743,12 @@ margin: 0 1rem;
     /* color: yellow; */
   }
 
-  .btn--green:hover {
-    background-color: #08fdd8;
+  /* .btn--green:hover {
+     background-color: #08fdd8; 
     color: white;
     border: 1px solid white;
-  }
-
-  /* .btn--green::after {
-  background-color: #55c57a;
   } */
+
 
   #border-none {
     border-bottom: none;
