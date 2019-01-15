@@ -268,7 +268,7 @@ body {
   .paragraph {
     font-size: 1.8rem;
     text-align: justify;
-    font-weight: 300;
+    font-weight: 100;
   }
 
   .paragraph:not(:last-child) {
