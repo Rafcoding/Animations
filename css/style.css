@@ -14,6 +14,7 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #f7f7f7;
+
 }
 
 .header {
@@ -193,7 +194,7 @@ body {
     background-color: #333;
     padding: 50rem 0;
     margin-top: -50vh;
-    height: 160vh;
+    height: 150vh;
 
 
   }
@@ -258,7 +259,7 @@ body {
   .row .col-1-of-2 {
     width: calc((100% - 3rem) / 2);
     float: left;
-    margin-top: -7rem;
+    /* margin-top: -7rem; */
   }
 
   .composition {
@@ -368,7 +369,7 @@ body {
     .row-projects {
       max-width: 114rem;
       margin: 0 auto;
-      margin-left: 17rem;
+      /* margin-left: 17rem; */
 
     }
 
@@ -744,7 +745,7 @@ margin: 0 1rem;
   }
 
   /* .btn--green:hover {
-     background-color: #08fdd8; 
+     background-color: #08fdd8;
     color: white;
     border: 1px solid white;
   } */
