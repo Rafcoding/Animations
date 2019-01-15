@@ -193,7 +193,7 @@ body {
     background-color: #333;
     padding: 50rem 0;
     margin-top: -50vh;
-    height: 155vh;
+    height: 160vh;
 
 
   }
@@ -230,7 +230,7 @@ body {
   }
 
   .u-margin-bottom-big {
-    margin-bottom: 8rem;
+    margin-bottom: 10rem;
   }
 
   .u-margin-bottom-big2 {
@@ -258,6 +258,7 @@ body {
   .row .col-1-of-2 {
     width: calc((100% - 3rem) / 2);
     float: left;
+    margin-top: -7rem;
   }
 
   .composition {
@@ -334,7 +335,7 @@ body {
 
   .composition__photo--p1 {
     left: 14rem;
-    top: -4rem;
+    top: 5rem;
   }
 
   .composition__photo--p2 {
@@ -344,7 +345,7 @@ body {
 
   .composition__photo--p3 {
     left: 20%;
-    top: 15rem;
+    top: 18rem;
   }
 
   .section-projects {
