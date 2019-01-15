@@ -17,7 +17,7 @@ body {
 }
 
 .header {
-  height: 95vh;
+  height: 100vh;
   background-image: linear-gradient(
     to right bottom,
     rgba(38, 44, 38, 0.8),
@@ -251,7 +251,7 @@ body {
   .row {
     max-width: 114rem;
     margin: 0 auto;
-    margin-left: 13rem;
+    /* margin-left: 13rem; */
 
   }
 
@@ -384,8 +384,8 @@ body {
       -moz-perspective: 150rem;
       position: relative;
       height: 45rem;
-      margin-right: 2rem;
-
+      /* margin-right: 2rem; */
+margin: 0 1rem;
     }
 
     .card__side {
@@ -612,7 +612,7 @@ body {
   .footer__link:hover,
   .footer__link:active {
     color: #08fdd8;
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .4);
+    /* box-shadow: 0 1rem 2rem rgba(0, 0, 0, .4); */
     transform: rotate(5deg) scale(1.3);
   }
 
