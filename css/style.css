@@ -668,15 +668,16 @@ background-image: url(../img/SneakerFreaker.png);
   }
 
   .heading-popup {
-
-    font-size: 2.5rem;
+font-family: 'Baloo Bhai', cursive;
+    font-size: 2.7rem;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 100;
     display: inline-block;
-    background-image: linear-gradient(to left, rgba(38, 120, 38, 0.8),
-    rgba(40, 180, 133, 0.8));
+    /* background-image: linear-gradient(to left, rgba(38, 120, 38, 0.8),
+    rgba(40, 180, 133, 0.8)); */
+    color: #fc0953;
     -webkit-background-clip: text;
-    color: transparent;
+    /* color: transparent; */
     letter-spacing: .2rem;
     transition: all .2s;
   }
@@ -695,7 +696,9 @@ background-image: url(../img/SneakerFreaker.png);
     left: 50%;
     transform: translate(-50%, -50%);
     width: 75%;
-    background-color: white;
+    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 1),
+    rgba(40,170,255,1));
+    /* background-color: white; */
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, .2);
     border-radius: 3px;
     display: table;
@@ -714,7 +717,7 @@ background-image: url(../img/SneakerFreaker.png);
     width: 66.6666667%;
     display: table-cell;
     vertical-align: middle;
-    padding: 3rem 5rem;
+    padding: 0rem 9rem 0rem 5rem;
   }
 
   .popup__img {
@@ -725,7 +728,8 @@ background-image: url(../img/SneakerFreaker.png);
   .popup__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
-    color: black;
+    color: #333;
+    text-align: justify;
 
     -moz-column-count: 2;
     -moz-column-gap: 4rem;
@@ -771,17 +775,51 @@ background-image: url(../img/SneakerFreaker.png);
   }
 
   .btn--green {
-    background-color: #55c57a;
+    /* background-color: white; */
+    /* color: yellow; */
+  }
+
+  .btn--green:hover {
+    background-color: #08fdd8;
     color: white;
-
-
+    border: 1px solid white;
   }
 
-  .btn--green::after {
+  /* .btn--green::after {
     background-color: #55c57a;
-  }
+  } */
 
   #border-none {
     border-bottom: none;
     font-size: 3rem;
   }
+
+
+
+  .btn-popup:link,
+  .btn-popup:visited {
+    letter-spacing: 2px;
+text-transform: uppercase;
+    border: 1px solid #fc0953;
+    color: #fc0953;
+    border-radius: 0.3rem;
+    font-size: 2rem;
+    /* color:  #55c57a; */
+    display: inline-block;
+    text-decoration: none;
+    /* border-bottom: 1px solid #55c57a; */
+        padding: 8px 13px 8px 16px;
+  }
+
+
+    .btn-popup:hover {
+      /* background-color: #08fdd8; */
+      color: #fc0953;
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, .15);
+      transform: translateY(-2px);
+    }
+
+    .btn-popup:active {
+      box-shadow: 0 .5rem 2rem rgba(0, 0, 0, .15);
+      transform: translateY(0);
+    }
