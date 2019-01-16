@@ -397,17 +397,19 @@ margin: 0 1rem;
       left: 0;
       width: 100%;
       backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
       border-radius: 3px;
       overflow: hidden;
       box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .15);
     }
 
     .card:hover .card__side--front {
-      transform: rotateY(-180deg);
+      -webkit-transform: rotateY(-180deg);
     }
 
     .card:hover .card__side--back {
-      transform: rotateY(0);
+      -webkit-transform: rotateY(0);
+  
     }
 
     .card__side--front {
@@ -415,7 +417,8 @@ margin: 0 1rem;
     }
 
     .card__side--back {
-      transform: rotateY(180deg);
+      -webkit-transform: rotateY(180deg);
+
     }
 
     .card__side--back-1 {
@@ -616,6 +619,26 @@ margin: 0 1rem;
     /* box-shadow: 0 1rem 2rem rgba(0, 0, 0, .4); */
     transform: rotate(5deg) scale(1.4);
   }
+
+/* Business Cards */
+
+/* .icon {
+  color: #08fdd8;
+  font-size: 23px;
+text-align: -webkit-auto;
+margin-top: 200px;
+margin-bottom: 10px;
+}
+
+.logo {
+  margin-right: 10px;
+  font-size: larger;
+}
+
+.logo2 {
+  margin-right: 11px;
+  font-size: larger;
+} */
 
 
   .popup {
