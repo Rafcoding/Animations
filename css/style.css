@@ -260,9 +260,9 @@ body {
 
 .section-about {
   background-color: #333;
-  padding: 50rem 0;
-  margin-top: -50vh;
-  height: 160vh;
+  padding: 55rem 0;
+  margin-top: -20vh;
+  /* height: 160vh; */
 
 
 }
@@ -301,12 +301,13 @@ body {
 }
 
 .u-margin-bottom-big {
-  margin-bottom: 5rem;
+  margin-bottom: 7rem;
+  margin-top: -25rem;
 }
 
 .u-margin-bottom-big2 {
   margin-bottom: 8rem;
-  margin-top: -14rem;
+    margin-top: -27rem;
 }
 
 .u-margin-bottom-medium {
@@ -424,9 +425,9 @@ composition:hover composition__photo:not(:hover) {
     to right bottom,
     rgba(38, 44, 38, 1),
     rgba(8, 253, 216, 1));
-    padding: 25rem 0 50rem 0;
+    padding: 30rem 0 50rem 0;
     /* margin-top: -10rem; */
-    height: 110vh;
+    /* height: 110vh; */
   }
 
   #heading-secondary-white {
@@ -641,7 +642,7 @@ composition:hover composition__photo:not(:hover) {
 
     .footer {
       background-color: #333;
-      padding: 10rem 0;
+      /* padding: 10rem 0; */
       font-size: 1.4rem;
       color: grey;
       text-align: center;
