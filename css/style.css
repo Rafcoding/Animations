@@ -103,9 +103,8 @@ body {
       letter-spacing: 1px !important;
     }
     .row-projects .col-1-of-3 {
-      width: 53% !important;
-      margin-bottom: 3rem;
-  
+      width: 50% !important;
+      margin-bottom: 6rem;
 
       /* margin-right: 0 !important; */
 
@@ -126,13 +125,6 @@ body {
     .row-projects {
       max-width: 50rem !important;
     }
-    .section-about {
-      padding: 63rem 0 !important;
-    }
-
-    .card__picture {
-
-    height: 12rem;
   }
 
 .header__text-box{
