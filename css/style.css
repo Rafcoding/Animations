@@ -22,7 +22,7 @@ body {
 }
 
 .header {
-  height: 100vh;
+  height: 95vh;
   background-image: linear-gradient(
     to right bottom,
     rgba(38, 44, 38, 0.8),
@@ -103,8 +103,9 @@ body {
       letter-spacing: 1px !important;
     }
     .row-projects .col-1-of-3 {
-      width: 50% !important;
-      margin-bottom: 6rem;
+      width: 53% !important;
+      margin-bottom: 3rem;
+  
 
       /* margin-right: 0 !important; */
 
@@ -125,6 +126,13 @@ body {
     .row-projects {
       max-width: 50rem !important;
     }
+    .section-about {
+      padding: 63rem 0 !important;
+    }
+
+    .card__picture {
+
+    height: 12rem;
   }
 
 .header__text-box{
