@@ -60,10 +60,30 @@ body {
         clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
       }
+
+      /* .row-projects .col-1-of-2 {
+        width: 87rem !important;
+
+      } */
+
+      .row {
+        max-width: 90rem !important;
+
+
+      }
   }
 
 /* tablet */
 
+  @media (max-width: 56.25em) and (min-width: 601px){
+
+    .row {
+      max-width: 100rem !important;
+      margin: 0 auto;
+
+
+    }
+  }
   @media (max-width: 56.25em) {
 
     html {
@@ -83,10 +103,10 @@ body {
       letter-spacing: 1px !important;
     }
     .row-projects .col-1-of-3 {
-      width: 100% !important;
+      width: 50% !important;
       margin-bottom: 6rem;
 
-      margin-right: 0 !important;
+      /* margin-right: 0 !important; */
 
     }
     .row-projects .col-1-of-2 {
@@ -97,7 +117,7 @@ body {
 
 
     .row {
-      max-width: 100rem !important;
+      max-width: 100rem;
       margin: 0 auto;
 
 
