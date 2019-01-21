@@ -34,7 +34,6 @@ body {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
 
-
   }
   /*Phone*/
   @media (max-width: 37.5em) {
