@@ -865,6 +865,7 @@ border: 1px solid white;
   text-decoration: none;
   /* border-bottom: 1px solid #55c57a; */
   padding: 8px 13px 8px 16px;
+  margin-right: 1rem;
 }
 
 
@@ -878,4 +879,8 @@ border: 1px solid white;
 .btn-popup:active {
   box-shadow: 0 .5rem 2rem rgba(0, 0, 0, .15);
   transform: translateY(0);
+}
+
+.fa-github {
+  font-size: 4rem;
 }
