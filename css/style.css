@@ -417,6 +417,7 @@ margin-top: 2rem !important;
   }
 
   .composition__photo {
+
     width: 121%;
     /* box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .4); */
     border-radius: 2px;
@@ -441,6 +442,7 @@ margin-top: 2rem !important;
   .composition__photo--p1 {
     left: 3rem;
     top: -10rem;
+        opacity: 0.9;
   }
 
   /* .composition__photo--p2 {
