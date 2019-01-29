@@ -440,7 +440,7 @@ margin-top: 2rem !important;
   }
 
   .composition__photo--p1 {
-    left: 3rem;
+    left: 1rem;
     top: -10rem;
         opacity: 0.9;
   }
@@ -460,7 +460,7 @@ margin-top: 2rem !important;
       to right bottom,
       rgba(38, 44, 38, 1),
       rgba(8, 253, 216, 1));
-      padding: 30rem 0 50rem 0;
+      padding: 30rem 0 50rem 1rem;
       /* margin-top: -10rem; */
       /* height: 110vh; */
     }
