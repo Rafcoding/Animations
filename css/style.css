@@ -228,9 +228,7 @@ ul {
   text-indent: 9999999999;
 }
 
-  .slick-slider {
-    height: max-content;
-  }
+
 
 .footer a:hover,
 .footer a:active {
@@ -249,6 +247,10 @@ ul {
     text-align: center;
     font-size: 30px;
     padding: 20px 0;
+  }
+
+    .slick-slider {
+    height: 220px;
   }
 
   .center {
