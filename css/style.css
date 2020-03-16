@@ -228,6 +228,9 @@ ul {
   text-indent: 9999999999;
 }
 
+  .slick-slider {
+    height: max-content;
+  }
 
 .footer a:hover,
 .footer a:active {
